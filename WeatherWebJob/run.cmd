@@ -1,1 +1,1 @@
-﻿dotnet WeatherWebJob.dll
+dotnet WeatherWebJob.dll
