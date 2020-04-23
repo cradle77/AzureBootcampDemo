@@ -31,7 +31,7 @@ namespace WeatherWebJob
 			{
 				bool isProduction = (context.HostingEnvironment.EnvironmentName.ToUpper() == "PRODUCTION");
 
-				b.SetMinimumLevel(isProduction ? LogLevel.Error : LogLevel.Warning);
+				b.SetMinimumLevel(isProduction ? LogLevel.Error : LogLevel.Trace);
 
 				b.AddConsole();
 			});
